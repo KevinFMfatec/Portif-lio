@@ -34,3 +34,23 @@
     opacity: 1;
     text-align: center;
 }
+
+@media (max-width: 745px) {
+    .fotoeu {
+        width: 400px;
+        height: 400px;
+        top: 150px;
+        left: 160px;
+    }
+
+    .titulo {
+        top: 600px;
+        left: 225px;
+        font-size: 50px;
+    }
+    .textosobremim {
+        top: 680px;
+        left: 0px;
+        font-size: 38px;
+    }
+}

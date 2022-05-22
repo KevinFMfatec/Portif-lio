@@ -6,7 +6,7 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 182px;
+    top: 180px;
     left: 20px;
 }
 .subtitulo {
@@ -34,8 +34,8 @@
     text-align: center;
 }
 .button {
-    width: 291px;
-    height: 90px;
+    width: 300px;
+    height: 100px;
     background: rgba(199,5,5,1);
     opacity: 1;
     position: absolute;
@@ -54,4 +54,29 @@
     font-size: 42px;
     opacity: 1;
     text-align: center;
+}
+
+@media (max-width: 745px) {
+    .api {
+        width: 600px;
+        top: 150px;
+        left: 60px;
+    }
+    .subtitulo {
+        top: 640px;
+        left: -10px;
+    }
+    .textoprojeto {
+        top: 770px;
+        left: -10px;
+        font-size: 42px;
+    }
+    .button {
+        top: 1270px;
+        left: 210px;
+    }
+    .buttontext {
+        top: 1290px;
+        left: 215px;
+    }
 }

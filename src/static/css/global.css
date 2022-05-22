@@ -95,3 +95,30 @@ body {
 
     }
 }
+
+@media (max-width: 999px) {
+    .navbar{
+        position: absolute;
+        height: 120px;
+    }
+    .cor {
+        height: 120px;
+    }
+    .logo {
+        width: 50px;
+        font-size: 76px;
+    }
+    .inicio  {
+        width: 150px;
+        left: -355px;
+    }
+    .sobremim {
+        width: 150px;
+        left: -200px;
+        top: -10px;
+    }
+    .projetos {
+        width: 150px;
+        left: -30px;
+    }
+}

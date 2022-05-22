@@ -10,8 +10,8 @@
     left: 650px;
 }
 .linkedin {
-    width: 111px;
-    height: 114px;
+    width: 120px;
+    height: 120px;
     background: url("../images/linkedin.png");
     background-position: center;
     background-size: cover;
@@ -43,4 +43,27 @@
     top: 224px;
     left: 120px;
     border-radius: 190px;
+}
+
+@media (max-width: 745px) {
+    .foto {
+        width: 400px;
+        height: 400px;
+        top: 150px;
+        left: 160px;
+    }
+    .texto {
+        top: 600px;
+        left: 0px;
+        font-size: 40px;
+    }
+    .github {
+        top: 950px;
+        left: 160px;
+    }
+    .linkedin {
+        top: 1150px;
+        left: 300px;
+    }
+
 }
