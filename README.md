@@ -14,7 +14,7 @@
 # Como rodar minha aplicação em flask na sua maquina
   ## Certifique-se de ter o git e o python instalado:
    ### 1º Em uma nova pasta abra o prompt de comando e digite o comando 
-    git clone https://github.com/lucasdwn/Portfolio_DesignDigital_Fatec
+    git clone https://github.com/KevinFMfatec/Portif-lio.git
 
   ### 2º Dentro da pasta src da aplicação, crie um ambiente virtual usando:
     py -3 -m venv venv
