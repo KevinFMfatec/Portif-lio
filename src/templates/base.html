@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Volkhov&display=swap" rel="stylesheet" />
+    <link href="./static/css/global.css" rel="stylesheet" />
+    <link href="./static/css/inicio.css" rel="stylesheet" />
+    <link href="./static/css/projetos.css" rel="stylesheet" />
+    <link href="./static/css/sobremim.css" rel="stylesheet" />
+    <title>{{titulo}}</title>
+    {% endblock %}
+</head>
+<body>
+    {% block nav %}
+     <header>
+        <div class="navbar">
+            <div class="cor"></div>
+            <span class="btnnavbar">
+                <a href="/"><span class='inicio'>Início</span></a>
+                <a href="/About"><span class='sobremim'>Sobre mim</span></a>
+                <a href="/Projects"><span class='projetos'>Projetos</span></a>
+            </span>
+            <span class="logo">KFM</span>
+        </div>
+     </header>
+    {% endblock %}
+
+    {% block main %} 
+    {% endblock %}
+
+
+</body>
+</html>

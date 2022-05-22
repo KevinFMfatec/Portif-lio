@@ -1,183 +1,46 @@
-.v1_2 {
-  width: 100%;
-  height: 1024px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+.github {
+    width: 400px;
+    height: 114px;
+    background: url("../images/github.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 600px;
+    left: 650px;
 }
-.v1_39 {
-  width: 100%;
-  height: 924px;
-  background: url("../images/v1_39.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  overflow: hidden;
+.linkedin {
+    width: 111px;
+    height: 114px;
+    background: url("../images/linkedin.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 600px;
+    left: 1100px;
 }
-.v1_10 {
-  width: 100%;
-  height: 924px;
-  background: rgba(255,212,212,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+.texto {
+    width: 699px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 224px;
+    left: 603px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 50px;
+    opacity: 1;
+    text-align: center;
 }
-.v2_65 {
-  width: 400px;
-  height: 114px;
-  background: url("../images/v2_65.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 601px;
-  left: 538px;
-  overflow: hidden;
-}
-.v2_63 {
-  width: 111px;
-  height: 114px;
-  background: url("../images/v2_63.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 601px;
-  left: 1000px;
-  overflow: hidden;
-}
-.v2_61 {
-  width: 699px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 224px;
-  left: 603px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 50px;
-  opacity: 1;
-  text-align: center;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.v12_8 {
-  width: 380px;
-  height: 380px;
-  background: url("../images/v12_8.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 224px;
-  left: 120px;
-  border-top-left-radius: 190px;
-  border-top-right-radius: 190px;
-  border-bottom-left-radius: 190px;
-  border-bottom-right-radius: 190px;
-  overflow: hidden;
-}
-.v1_38 {
-  width: 100%;
-  height: 100px;
-  background: url("../images/v1_38.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_9 {
-  width: 100%;
-  height: 100px;
-  background: rgba(198,4,4,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_12 {
-  width: 550px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 23px;
-  left: 555px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 38px;
-  opacity: 1;
-  text-align: center;
-}
-.v1_35 {
-  width: 200px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  font-family: Volkhov;
-  font-weight: Regular;
-  font-size: 76px;
-  opacity: 1;
-  text-align: center;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.inicio {
-  width: 291px;
-  height: 90px;
-  background: rgb(199, 5, 5);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: -300px;
-  overflow: hidden;
-}
-.sobremim {
-  width: 291px;
-  height: 90px;
-  background: rgb(199, 5, 5);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.projetos {
-  width: 291px;
-  height: 90px;
-  background: rgb(199, 5, 5);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 300px;
-  overflow: hidden;
+.foto {
+    width: 380px;
+    height: 380px;
+    background: url("../images/foto.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 224px;
+    left: 120px;
+    border-radius: 190px;
 }
