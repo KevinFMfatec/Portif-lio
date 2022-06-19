@@ -6,7 +6,7 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 600px;
+    top: 570px;
     left: 650px;
 }
 .linkedin {
@@ -17,14 +17,14 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 600px;
+    top: 570px;
     left: 1100px;
 }
 .texto {
     width: 699px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 224px;
+    top: 190px;
     left: 603px;
     font-family: Roboto;
     font-weight: Bold;
@@ -32,23 +32,16 @@
     opacity: 1;
     text-align: center;
 }
-.foto {
-    width: 380px;
-    height: 380px;
-    background: url("../images/foto.png");
-    background-position: center;
-    background-size: cover;
+img {
     opacity: 1;
     position: absolute;
-    top: 224px;
-    left: 120px;
-    border-radius: 190px;
+    top: 150px;
+    left: 50px;
+    border-radius: 250px;
 }
 
 @media (max-width: 745px) {
-    .foto {
-        width: 400px;
-        height: 400px;
+    img {
         top: 150px;
         left: 160px;
     }
