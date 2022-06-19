@@ -1,14 +1,9 @@
 .fotoeu {
-    width: 380px;
-    height: 380px;
-    background: url("../images/foto.png");
-    background-position: center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 224px;
-    left: 120px;
-    border-radius: 190px;
+    top: 150px;
+    left: 50px;
+    border-radius: 250px;
 }
 .titulo {
     width: 260px;
@@ -37,8 +32,6 @@
 
 @media (max-width: 745px) {
     .fotoeu {
-        width: 400px;
-        height: 400px;
         top: 150px;
         left: 160px;
     }

@@ -32,7 +32,7 @@
     opacity: 1;
     text-align: center;
 }
-img {
+.foto {
     opacity: 1;
     position: absolute;
     top: 150px;
@@ -41,7 +41,7 @@ img {
 }
 
 @media (max-width: 745px) {
-    img {
+    .foto {
         top: 150px;
         left: 160px;
     }

@@ -1,9 +1,4 @@
 .api {
-    width: 585px;
-    height: 460px;
-    background: url("../images/api.png");
-    background-position: center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 180px;
@@ -58,7 +53,7 @@
 
 @media (max-width: 745px) {
     .api {
-        width: 600px;
+        left: 70px;
         top: 150px;
         left: 60px;
     }
